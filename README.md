@@ -56,6 +56,19 @@ This tool streamlines how FAS analysts discover actionable alerts, reducing manu
 
 ---
 
+## Example Files
+
+To test or demo the script without downloading new data:
+
+- `Notifications_example.xlsx` – a sample export from [ePing WTO Alerts](https://www.epingalert.org/en/Search/Index?domainIds=2)
+- You can open `Notifications_example.xlsx` in Excel or Google Sheets for inspection. It is not viewable inside VS Code.
+- `filtered_notifications_example.csv` – the output after running this script on the above Excel file
+
+These are provided so others can clone and immediately test the filtering logic without needing access to WTO export tools.
+
+> **Do not use these for production analysis.** They're mock data for demonstration purposes only.
+
+
 ## Contributing
 Contributions are welcome! If you’d like to improve the keyword set, add PostGIS support, or turn this into a GUI tool, feel free to fork the repo and submit a pull request.
 
