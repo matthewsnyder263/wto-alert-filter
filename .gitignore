@@ -1,6 +1,5 @@
 __pycache__/
 *.pyc
-.vscode/
-.env
-.DS_Store
-*.log
+*.xlsx
+*.csv
+!*_example.*
